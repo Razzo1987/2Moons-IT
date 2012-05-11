@@ -36,7 +36,7 @@ $LNG['menu_intro']				= 'Introduzione';
 $LNG['menu_install']			= 'Installa';
 $LNG['menu_license']			= 'Licenza';
 
-$LNG['title_install']			= 'Installatore';
+$LNG['title_install']			= 'Installazione';
 
 $LNG['intro_lang']				= 'Lingua';
 $LNG['intro_install']			= 'Installazione';
@@ -58,11 +58,11 @@ $LNG['reg_writable']			= 'Scrivibile';
 $LNG['reg_not_writable']		= 'Non scrivibile';
 $LNG['reg_file']				= 'File &raquo;%s&laquo; scrivibile?';
 $LNG['reg_dir']					= 'Directory &raquo;%s&laquo; scrivibile?';
-$LNG['req_php_need']			= 'Versione installata del linguaggio di scripting &raquo;PHP&laquo;';
+$LNG['req_php_need']			= 'Versione installata del linguaggio di scripting &raquo;PHP&laquo;.';
 $LNG['req_php_need_desc']		= '<strong>Prerequisito</strong> — PHP è il linguaggio lato server in cui è scritto 2Moons. Con questo 2Moons funzionerà senza alcuna limitazione,  la versione di PHP 5.2.5 è fornita.';
-$LNG['reg_gd_need']				= 'Versione installata della libreria di elaborazione grafica &raquo;gdlib&laquo;';
+$LNG['reg_gd_need']				= 'Versione installata della libreria di elaborazione grafica &raquo;gdlib&laquo;.';
 $LNG['reg_gd_desc']				= '<strong>Opzionale</strong> — La libreria di elaborazione grafica &raquo;gdlib&laquo; è responsabile per la generazione dinamica di immagini. Alcune funzionalità del software non funzioneranno senza di essa.';
-$LNG['reg_mysqli_active']		= 'Supporto del estensione &raquo;MySQLi&laquo;';
+$LNG['reg_mysqli_active']		= 'Supporto del estensione &raquo;MySQLi&laquo;.';
 $LNG['reg_mysqli_desc']			= '<strong>Prerequisito</strong> — E\' necessario fornire il supporto per MySQLi in PHP. Se nessun modulo database viene visualizzato come disponibile è necessario contattare il proprio hosting provider oppure consultare la relativa documentazione di PHP.';
 $LNG['reg_json_need']			= 'Estensione &raquo;JSON&laquo; disponibile?';
 $LNG['reg_iniset_need']			= 'Funzione PHP &raquo;ini_set&laquo; esistente?';
@@ -78,42 +78,42 @@ $LNG['req_ftp_send']			= 'Invia';
 $LNG['req_ftp_error_data']		= 'Con le credenziali fornite non è possibile connettersi al server FTP.';
 $LNG['req_ftp_error_dir']		= 'La directory specificata non è valida.';
 
-$LNG['step1_head']				= 'Datenbankzugang konfigurieren';
-$LNG['step1_desc']				= 'Nachdem nun festgestellt wurde, dass 2Moons auf deinem Server betrieben werden kann, musst du noch einige Informationen angeben. Wenn du nicht weißt, wie die Verbindungsdaten für deine Datenbank lauten, kontaktiere bitte als erstes deinen Webhosting-Provider oder wende dich an die 2Moons Support-Foren. Wenn du Daten eingibst, prüfe diese bitte sorgfältig, bevor du fortfährst.';
-$LNG['step1_mysql_server']		= 'Datenbankserver-Hostname oder DSN';
-$LNG['step1_mysql_port']		= 'Datenbankserver-Port';
-$LNG['step1_mysql_dbuser']		= 'Datenbank-Benutzername';
-$LNG['step1_mysql_dbpass']		= 'Datenbank-Passwort';
-$LNG['step1_mysql_dbname']		= 'Name der Datenbank';
-$LNG['step1_mysql_prefix']		= 'Tabellenprefix:';
+$LNG['step1_head']				= 'Configurare l\'accesso al database';
+$LNG['step1_desc']				= 'Ora che è stato stabilito che 2Moons può essere utilizzato sul server, è necessario fornire alcune informazioni. Se non sai quali sono i dati di connessione al il database, in primo luogo contattare il proprio hosting provider o contattare il Forum di supporto di 2Moons. Quando si immettono dati, controllare con attenzione prima di procedere.';
+$LNG['step1_mysql_server']		= 'Nome Host o DNS del Database';
+$LNG['step1_mysql_port']		= 'Porta del server del Database';
+$LNG['step1_mysql_dbuser']		= 'Nome utente del Database';
+$LNG['step1_mysql_dbpass']		= 'Password del Database';
+$LNG['step1_mysql_dbname']		= 'Nome del Database';
+$LNG['step1_mysql_prefix']		= 'Prefisso tabelle:';
 
-$LNG['step2_prefix_invalid']	= 'Der DB-Prefix darf nur alphanumerische Zeichen und Unterstriche enthalten.';
-$LNG['step2_db_error']			= 'Fehler beim Erstellen der Datenbank-Tabellen:';
-$LNG['step2_db_no_dbname']		= 'Kein Datenbank-Name angegeben.';
-$LNG['step2_db_too_long']		= 'Das angegebene Tabellen-Präfix ist zu lang. Die maximale Länge beträgt 36 Zeichen.';
-$LNG['step2_db_con_fail']		= 'Es kann keine Verbindung zur Datenbank aufgebaut werden. Details stehen in unten angezeigter Fehlermeldung.';
-$LNG['step2_config_exists']		= 'config.php bereits vorhanden!';
-$LNG['step2_conf_op_fail']		= 'config.php ist nicht beschreibbar!';
-$LNG['step2_conf_create']		= 'config.php erfolgreich erstellt...';
-$LNG['step2_db_done']			= 'Verbindung zur Datenbank war erfolgreich!';
+$LNG['step2_prefix_invalid']	= 'Il prefisso DB può contenere solo caratteri alfanumerici e underscore.';
+$LNG['step2_db_error']			= 'Errore durante la creazione delle tabelle del database:';
+$LNG['step2_db_no_dbname']		= 'Nessun Nome del Database specificato.';
+$LNG['step2_db_too_long']		= 'Il prefisso delle tabelle specificato è troppo lungo. La lunghezza massima è di 36 caratteri.';
+$LNG['step2_db_con_fail']		= 'Non è possibile stabilire alcuna connessione con il database. I dettagli sono disponibili nel messaggio di errore indicato qui di seguito.';
+$LNG['step2_config_exists']		= 'config.php già esistente!';
+$LNG['step2_conf_op_fail']		= 'config.php non è scrivibile!';
+$LNG['step2_conf_create']		= 'config.php creato con successo...';
+$LNG['step2_db_done']			= 'Connessione al database avvenuta con successo!';
 
-$LNG['step3_head']				= 'Datenbank-Tabellen erstellen';
-$LNG['step3_desc']				= 'Die von 2Moons genutzten Datenbank-Tabellen wurden nun erstellt und mit einigen Ausgangswerten gefüllt. Geh weiter zum nächsten Schritt, um die Installation von 2Moons abzuschließen.';
+$LNG['step3_head']				= 'Creazione delle tabelle del database';
+$LNG['step3_desc']				= 'Le tabelle del database utilizzate da 2Moons sono state create e popolate con alcuni valori iniziali. Vai alla fase successiva per completare l\'installazione di 2Moons.';
 
-$LNG['step4_head']				= 'Administrator erstellen';
-$LNG['step4_desc']				= 'Der Installationsassistent erstellt nun ein Administrator-Konto für Sie. Bitte geben Sie dazu einen Benutzernamen, eine E-Mail-Adresse und ein Kennwort ein.';
-$LNG['step4_admin_name']		= 'Benutzername des Administrators:';
-$LNG['step4_admin_name_desc']	= 'Bitte gib einen Benutzernamen mit einer Länge von 3 bis 20 Zeichen ein.';
-$LNG['step4_admin_pass']		= 'Administrator-Passwort:';
-$LNG['step4_admin_pass_desc']	= 'Bitte gib ein Passwort mit einer Länge von 6 bis 30 Zeichen ein.';
-$LNG['step4_admin_mail']		= 'Kontakt-E-Mail-Adresse:';
+$LNG['step4_head']				= 'Creazione dell\'Admin';
+$LNG['step4_desc']				= 'Ora, l\'installazione guidata crea un account di amministrazione per te. Inserisci un nome utente, un indirizzo E-Mail e una password a farlo.';
+$LNG['step4_admin_name']		= 'Nome utente dell\'admin:';
+$LNG['step4_admin_name_desc']	= 'Inserisci un nome utente con una lunghezza da 3 a 20 caratteri.';
+$LNG['step4_admin_pass']		= 'Password dell\'admin:';
+$LNG['step4_admin_pass_desc']	= 'Si prega di inserire una password con una lunghezza da 6 a 30 caratteri.';
+$LNG['step4_admin_mail']		= 'Indirizzo e-mail:';
 
-$LNG['step6_head']				= 'Herzlichen Glückwunsch!';
-$LNG['step6_desc']				= 'Du hast 2Moons erfolgreich installiert.';
-$LNG['step6_info_head']			= 'Starte mit 2Moons durch!';
-$LNG['step6_info_additional']	= 'Wenn du unten auf die Schaltfläche klickst, wirst du zu einem Formular im Administrations-Bereich weitergeleitet. Anschließend solltest du dir etwas Zeit nehmen, um die verfügbaren Optionen kennen zu lernen.<br/><br/><strong>Bitte lösche die Datei &raquo;includes/ENABLE_INSTALL_TOOL&laquo; oder nenne es um, bevor du dein Spiel benutzt. Solange diese Datei existiert, ist dein Spiel potenziell gefährdet!</strong>';
+$LNG['step6_head']				= 'Congratulazioni!';
+$LNG['step6_desc']				= '2Moons è stato installato con successo.';
+$LNG['step6_info_head']			= 'Inizia con 2Moons!';
+$LNG['step6_info_additional']	= 'Se si fa clic sul pulsante sottostante, sarete reindirizzati a un form nell\'area admin. Poi si dovrebbe cercare di dedicare un po\' di tempo per conoscere le opzioni disponibili.<br/><br/><strong>Si prega di eliminare il file &raquo;includes/ENABLE_INSTALL_TOOL&laquo; o di rinominarlo prima di eseguire il gioco. Finché questo file esiste, il vostro gioco è potenzialmente a rischio!</strong>';
 
-$LNG['sql_close_reason']		= 'Game ist zurzeit geschlossen';
-$LNG['sql_welcome']				= 'Herzlich Willkommen zu 2Moons v';
+$LNG['sql_close_reason']		= 'Il server è attualmente chiuso';
+$LNG['sql_welcome']				= 'Benvenuti a 2Moons';
 
 ?>
