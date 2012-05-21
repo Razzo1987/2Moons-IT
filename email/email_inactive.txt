@@ -1,0 +1,10 @@
+Ciao %1$s,
+non hai acceduto per %2$s giorni,  l'ultima volta era %3$s.
+
+Se si vuole ancora rimanere un membro della comunità, si prega di effettuare di nuovo il login con i dati in modo che il tuo account non scada.
+
+Se hai dimenticato la tua password vai a %4$s, e clicca su "Password dimenticata".
+Si otterrà una E-mail entro pochi minuti con la nuova password.
+
+Cordiali saluti,
+%2$s - Team

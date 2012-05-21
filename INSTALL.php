@@ -41,7 +41,7 @@ $LNG['title_install']			= 'Installazione';
 $LNG['intro_lang']				= 'Lingua';
 $LNG['intro_install']			= 'Installazione';
 $LNG['intro_welcome']			= 'Benvenuto in 2Moons!';
-$LNG['intro_text']				= '2Moons è uno dei migliori cloni di OGame.<br>2Moons è la versione di Xnova più recente e stabile mai sviluppata. 2Moons brilla per la sua stabilità, flessibilità, dinamismo, qualità e facilità d\'uso. Speriamo sempre di essere al di sopra delle vostre aspettative.<br><br>Il sistema di installazione ti guiderà attraverso l\'installazione o l\'aggiornamento da una versione precedente a quella più recente. Per qualsiasi domanda o problema non esitate a chiedere il nostro supporto.<br><br>2Moons è un progetto open source ed è concesso in licenza GPL v3 sotto GNU. Per informazioni rigaurdo la licenza, cliccare "licenza" sulla voce di menu appropriata di questa pagina.<br><br>Prima di avviare l\'installazione sarà eseguito un piccolo test per verificare se i requisiti minimi sono supportati.';
+$LNG['intro_text']				= '2Moons è uno dei migliori cloni di OGame.<br>2Moons è la versione di Xnova più recente e stabile mai sviluppata. 2Moons brilla per la sua stabilità, flessibilità, dinamismo, qualità e facilità d\'uso. Speriamo sempre di essere al di sopra delle vostre aspettative.<br><br>Il sistema di installazione ti guiderà attraverso l\'installazione o l\'aggiornamento da una versione precedente a quella più recente. Per qualsiasi domanda o problema non esitate a chiedere il nostro supporto.<br><br>2Moons è un progetto open source ed è concesso in licenza GPL v3 sotto GNU. Per informazioni riguaurdo la licenza, cliccare "licenza" sulla voce di menu appropriata di questa pagina.<br><br>Prima di avviare l\'installazione sarà eseguito un piccolo test per verificare se i requisiti minimi sono supportati.';
 
 $LNG['licence_head']			= 'Termini di licenza';
 $LNG['licence_desc']			= 'Si prega di leggere il seguente accordo di licenza. Utilizzare la barra di scorrimento per visualizzare l\'intero documento.';
@@ -49,7 +49,7 @@ $LNG['licence_accept']			= 'Non si accettano tutti i termini delle condizioni di
 $LNG['licence_need_accept']		= 'Per continuare con l\'installazione, è necessario accettare  i termini della licenza.';
 
 $LNG['req_head']				= 'Requisiti di Sistema';
-$LNG['req_desc']				= 'Prima che l\'installazione possa continuare, 2Moons effettuerà alcuni test sulla configurazione del server e dei file per garantire che sia possibile installare e utilizzare 2Moons. Si prega di leggere attentamente i risultati e di non procedere prima che vengano passati tutti i test necessari. Se si desidera utilizzare una qualsiasi delle funzioni che sono elencate sotto i moduli opzionali, è necessario assicurarsi che i test appropiati siano anch\'essi passati.';
+$LNG['req_desc']				= 'Prima che l\'installazione possa continuare, 2Moons effettuerà alcuni test sulla configurazione del server e dei file per garantire che sia possibile installare e utilizzare 2Moons. Si prega di leggere attentamente i risultati e di non procedere prima che vengano passati tutti i test necessari. Se si desidera utilizzare una qualsiasi delle funzioni che sono elencate sotto i moduli opzionali, è necessario assicurarsi che i test appropriati siano anch\'essi passati.';
 $LNG['reg_yes']					= 'Si';
 $LNG['reg_no']					= 'No';
 $LNG['reg_found']				= 'Trovato';

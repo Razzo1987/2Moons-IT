@@ -1,0 +1,9 @@
+Ciao %1$s,
+grazie per esserti registrato a %2$s!
+
+Siamo lieti che abbiate scelto di entrare a far parte della nostra comunità e speriamo che vi divertirete!
+
+Mit freundlichen Grüßen
+
+Cordiali saluti,
+%2$s - Team

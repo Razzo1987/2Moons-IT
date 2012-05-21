@@ -1,0 +1,20 @@
+Ciao %1$s,
+grazie per esserti registrato a %2$s.
+
+Prima che la tua registrazione sia completata e che venga attivato il tuo account è necessario fare un ultimo passo.
+
+Questo passo è obbligatorio al fine di completare la tua registrazione.
+Dovi premere il link sottostante una sola volta per verificare la tua identità.
+
+Per completare la registrazione, fare clic sul seguente Link:
+%3$s?page=reg&action=valid&uni=%7$s&clef=%4$s
+
+I tuoi dati di accesso:
+Username : %1$s
+Password : %5$s
+
+Se riscontrate problemi con la registrazione, si prega di contattare il webmaster a questo indirizzo E-Mail:
+mailto:%6$s
+
+Cordiali saluti,
+%2$s - Team
