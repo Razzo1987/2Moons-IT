@@ -148,7 +148,7 @@ $LNG['rules_info1']					= "Tuttavia, informa sul <a href=\"%s\" target=\"_blank\
 //NEWS
 
 $LNG['news_overview']				= "News";
-$LNG['news_from']					= "Alla %s di %s";
+$LNG['news_from']					= "Il %s da %s";
 $LNG['news_does_not_exist']			= "Nessuna news disponibile!";
 
 //Impressum
